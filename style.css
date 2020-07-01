@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+.container header {
+    display: grid;
+    align-items: center;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #293241;
+    padding-left: 3vw;
+}
+
+.container nav {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+nav {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #293241;    
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+    padding: 4vh 3vw 4vh 3vw;
+}
+
+nav ul li:hover {
+    background-color: #EE6C4D;
+    color: #293241;
+    transition-duration: 0.5s;
+    font-weight: 700;
+}
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+}
+
+.container main h1 {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10vw;
+}
+
+main h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #3D5A80;
+}
+
+.container main h2 {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    text-justify: newspaper;
+    margin-bottom: 5vh;
+}
+
+main h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #3D5A80;
+    padding: 2vh 10vw 0 35vw;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #3D5A80;
+    color: #EDDDD4;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    padding: 11px 25px;
+    margin-left: 50vw;
+    margin-top: 20vh;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.356);
+    font-size: 1.2rem;
+}
+
+.botao2 {
+    text-decoration: none;
+    background-color: #E0FBFC;
+    border: initial;
+    color: #293241;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding: 11px 60px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.356);
+    font-size: 1.2rem;
+    margin-left: 5vw;
+}
+
+.container footer {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #293241;
+}
+
+.redes a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0 5vw 0 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
